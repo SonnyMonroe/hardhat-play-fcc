@@ -1,0 +1,81 @@
+# npm resolution error report
+
+2022-10-28T20:53:03.661Z
+
+While resolving: hardhat-erc20-fcc@1.0.0
+Found: @nomiclabs/hardhat-ethers@0.3.0-beta.13
+node_modules/@nomiclabs/hardhat-ethers
+  dev @nomiclabs/hardhat-ethers@"npm:hardhat-deploy-ethers@^0.3.0-beta.13" from the root project
+
+Could not resolve dependency:
+peer @nomiclabs/hardhat-ethers@"^2.0.0" from @nomiclabs/hardhat-waffle@2.0.3
+node_modules/@nomiclabs/hardhat-waffle
+  dev @nomiclabs/hardhat-waffle@"^2.0.1" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force, or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.
+
+Raw JSON explanation object:
+
+{
+  "code": "ERESOLVE",
+  "current": {
+    "name": "@nomiclabs/hardhat-ethers",
+    "version": "0.3.0-beta.13",
+    "whileInstalling": {
+      "name": "hardhat-erc20-fcc",
+      "version": "1.0.0",
+      "path": "/home/sonnymonroe/hh-fcc"
+    },
+    "location": "node_modules/@nomiclabs/hardhat-ethers",
+    "isWorkspace": false,
+    "dependents": [
+      {
+        "type": "dev",
+        "name": "@nomiclabs/hardhat-ethers",
+        "spec": "npm:hardhat-deploy-ethers@^0.3.0-beta.13",
+        "from": {
+          "location": "/home/sonnymonroe/hh-fcc"
+        }
+      }
+    ]
+  },
+  "currentEdge": {
+    "type": "dev",
+    "name": "@nomiclabs/hardhat-ethers",
+    "spec": "npm:hardhat-deploy-ethers@^0.3.0-beta.13",
+    "from": {
+      "location": "/home/sonnymonroe/hh-fcc"
+    }
+  },
+  "edge": {
+    "type": "peer",
+    "name": "@nomiclabs/hardhat-ethers",
+    "spec": "^2.0.0",
+    "error": "INVALID",
+    "from": {
+      "name": "@nomiclabs/hardhat-waffle",
+      "version": "2.0.3",
+      "whileInstalling": {
+        "name": "hardhat-erc20-fcc",
+        "version": "1.0.0",
+        "path": "/home/sonnymonroe/hh-fcc"
+      },
+      "location": "node_modules/@nomiclabs/hardhat-waffle",
+      "isWorkspace": false,
+      "dependents": [
+        {
+          "type": "dev",
+          "name": "@nomiclabs/hardhat-waffle",
+          "spec": "^2.0.1",
+          "from": {
+            "location": "/home/sonnymonroe/hh-fcc"
+          }
+        }
+      ]
+    }
+  },
+  "strictPeerDeps": false,
+  "force": false
+}

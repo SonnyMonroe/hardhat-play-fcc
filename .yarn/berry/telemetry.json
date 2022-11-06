@@ -1,0 +1,40 @@
+{
+  "lastUpdate": 1666969829502,
+  "blocks": {
+    "*": {
+      "values": {
+        "version": [
+          "3.2.4"
+        ],
+        "commandName": [
+          "set version",
+          "init",
+          "<none>",
+          "--version",
+          "add"
+        ],
+        "workspaceCount": [
+          "1"
+        ],
+        "dependencyCount": [
+          "17",
+          "0",
+          "1",
+          "2",
+          "15"
+        ]
+      },
+      "enumerators": {
+        "projectCount": [
+          "ea650e07dda630422e90f6d4d16822a10fc4c7c5960bbae33339cc306703e433ec2125ef3f8c2b44578545f6d0763169a72ca1d791059fca093d6e71e6114174",
+          "7ad2e8ec17d7bc9ab4b36f2b2019bb8bbfc7363b579c8197a338143c3e6a5a383f3b8a346e4a16e0ebc2d310e3fe6090fed61a93544e75ec9734364fef935f3a"
+        ]
+      },
+      "hits": {
+        "installCount": {
+          "node-modules": 6
+        }
+      }
+    }
+  }
+}
