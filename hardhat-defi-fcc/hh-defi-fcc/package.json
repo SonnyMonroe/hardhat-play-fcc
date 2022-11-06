@@ -7,10 +7,10 @@
     "chai": "^4.3.4",
     "ethereum-waffle": "^3.4.0",
     "ethers": "^5.5.3",
-    "hardhat": "^2.12.2",
+    "hardhat": "^2.8.3",
     "hardhat-deploy": "^0.9.29",
     "hardhat-gas-reporter": "^1.0.7",
-    "solidity-coverage": "^0.7.22"
+    "solidity-coverage": "^0.7.18"
   },
   "dependencies": {
     "@aave/protocol-v2": "^1.0.1",
@@ -23,10 +23,5 @@
     "lint": "solhint 'contracts/*.sol'",
     "lint:fix": "solhint 'contracts/**/*.sol' --fix",
     "format": "prettier --write ."
-  },
-  "version": "1.0.0",
-  "main": "hardhat.config.js",
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  }
 }
